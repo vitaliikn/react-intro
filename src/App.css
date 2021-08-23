@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.postMessage {
+    font-family: 'Source san pro';
+    padding-top:20px
   }
+.nickName{
+    font-family: 'Josefin Sans', cursive;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.photo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.wrapper{
+display: block;
+}
+.authors{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.postImage img{
+height: 200px;
+width: 450px;
+margin-bottom: 20px;
+}
+
+.name{
+    display: inline;
+    
+}
+.nickName{
+    display: inline;
+    margin-left: 10px;
+}
+.date{
+    display: inline;
+    margin-left: 10px;
 }
